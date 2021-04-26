@@ -1,6 +1,9 @@
 def triangle_area_calc(side_a,side_b,side_c):
-    area=0.5*(side_a+side_b+side_c)
-    print(area)
+    
+    semi = (side_a + side_b + side_c)/2
+    area = (semi* (semi - side_a)* (semi - side_b)* (semi - side_c))**0.5
+
+    print(str(round(area,2)))
 
 
-triangle_area_calc(4,6,8)
+triangle_area_calc(float(4),float(6),float(8))
