@@ -1,7 +1,7 @@
 def even_or_odd (number):
     if number%2==0 :
-        print("even")
+        return "even"
     elif number%2==1:
-        print("odd")
+        return "odd"
 
-even_or_odd(16)
+print(even_or_odd(16))
