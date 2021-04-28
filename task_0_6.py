@@ -6,7 +6,7 @@ def find_biggest_num2(*args):
             biggest_number=x
 
     
-    print(biggest_number)
+    return biggest_number
 
 
-find_biggest_num2(1,2,3,4,5,6)
+print(find_biggest_num2(1,2,3,4,5,6))
