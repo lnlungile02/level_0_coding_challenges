@@ -4,9 +4,14 @@ z = 1 + (1 * 2)
 a = 1 + 1 * 2 / 2
 b = (1 + 1 * 2) / 2
 
-if __name__ in "__main__":
+
+def main():
     print(x)
     print(y)
     print(z)
     print(a)
     print(b)
+
+
+if __name__ in "__main__":
+    main()
