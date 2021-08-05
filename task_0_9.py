@@ -11,5 +11,8 @@ def print_vowel(sentence):
     
     return("Vowels: "+ string_vowels+ ", ".join(vowels_in_sentence))
 
+def main():
+    print(print_vowel('Eckard Berry'))
 
-print(print_vowel('LUNGILE MINENHLE NJAKAZI'))
+if __name__ in "__main__":
+    main()
