@@ -1,5 +1,10 @@
 def hello(name):
-      return ("Hello "+ name + "!")
-    
+    return f"Hello {name}!"
 
-print(hello("Lungile"))
+
+def main():
+    print(hello("Lungile"))
+
+
+if __name__ in "__main__":
+    main()
