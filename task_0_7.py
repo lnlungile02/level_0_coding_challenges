@@ -1,11 +1,17 @@
-def convert_to__celciius(f):
-    celcius=(f-32)*(5/9)
-    return celcius
+def convert_to__celciius(fahrenheit):
+    celcius = (fahrenheit - 32) * (5 / 9)
+    return round(celcius, 2)
 
-def convert_to_fahrenheit(c):
-    fahrenheit = (c*(9/5))+32
-    return fahrenheit
 
-print(convert_to__celciius(92))
+def convert_to_fahrenheit(celcius):
+    fahrenheit = (celcius * (9 / 5)) + 32
+    return round(fahrenheit, 2)
 
-print(convert_to_fahrenheit(33))
+
+def main():
+    print(convert_to__celciius(92))
+    print(convert_to_fahrenheit(33))
+
+
+if __name__ in "__main__":
+    main()
