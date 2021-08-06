@@ -1,10 +1,10 @@
-def print_vowel(sentence1, sentence2):
+def print_vowel(sentence_one, sentence_two):
     similar_letters = []
-    lowercase1 = list(sentence1.lower())
-    lowercase2 = list(sentence2.lower())
+    lowercase_one = list(sentence_one.lower())
+    lowercase_two = list(sentence_two.lower())
 
-    for x in lowercase1:
-        for y in lowercase2:
+    for x in lowercase_one:
+        for y in lowercase_two:
             if x == y:  # comapre index of strings
                 similar_letters.append(x)
 
