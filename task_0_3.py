@@ -1,12 +1,10 @@
-def even_or_odd(number):
-    if number % 2 == 0:
-        print("even")
-    elif number % 2 == 1:
-        print("odd")
+def hello(name):
+    sentence = f"Hello {name}!"
+    print(sentence)
 
 
 def main():
-    even_or_odd(16)
+    hello("Lungile")
 
 
 if __name__ in "__main__":
