@@ -1,13 +1,13 @@
 def print_vowel(sentence):
 
-    lowercase = set(sentence.lower())
+    letters = set(sentence.lower())
     vowels_in_sentence = []
-    vowel = ["a", "e", "i", "o", "u"]
+    vowels = ["a", "e", "i", "o", "u"]
 
-    for x in lowercase:
-        for y in vowel:
-            if x == y:
-                vowels_in_sentence.append(x)
+    for char in letters:
+        for vowel in vowels:
+            if char == vowel:
+                vowels_in_sentence.append(char)
     sentence = ", ".join(vowels_in_sentence)
     print(f"Vowels: {sentence}")
 
