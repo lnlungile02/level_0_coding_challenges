@@ -6,13 +6,14 @@ def print_vowel(sentence_one, sentence_two):
     for char_one in letters_one:
         for char_two in letters_two:
             if char_one == char_two:
-                similar_letters.append(char_one)
+                if char_one not in similar_letters:
+                    similar_letters.append(char_one)
 
     print("Common letters: " + ", ".join(similar_letters))
 
 
 def main():
-    print_vowel("house", "computers")
+    print_vowel("eckard", "berry")
 
 
 if __name__ in "__main__":
